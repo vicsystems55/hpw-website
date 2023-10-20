@@ -1,132 +1,832 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en" dir="ltr">
 
-        <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- Mirrored from mixdesign.club/themeforest/axio/index-mono-html5-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Oct 2023 11:07:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
 
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--bg-opacity:1;background-color:#fff;background-color:rgba(255,255,255,var(--bg-opacity))}.bg-gray-100{--bg-opacity:1;background-color:#f7fafc;background-color:rgba(247,250,252,var(--bg-opacity))}.border-gray-200{--border-opacity:1;border-color:#edf2f7;border-color:rgba(237,242,247,var(--border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{box-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)}.text-center{text-align:center}.text-gray-200{--text-opacity:1;color:#edf2f7;color:rgba(237,242,247,var(--text-opacity))}.text-gray-300{--text-opacity:1;color:#e2e8f0;color:rgba(226,232,240,var(--text-opacity))}.text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.text-gray-500{--text-opacity:1;color:#a0aec0;color:rgba(160,174,192,var(--text-opacity))}.text-gray-600{--text-opacity:1;color:#718096;color:rgba(113,128,150,var(--text-opacity))}.text-gray-700{--text-opacity:1;color:#4a5568;color:rgba(74,85,104,var(--text-opacity))}.text-gray-900{--text-opacity:1;color:#1a202c;color:rgba(26,32,44,var(--text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--bg-opacity:1;background-color:#2d3748;background-color:rgba(45,55,72,var(--bg-opacity))}.dark\:bg-gray-900{--bg-opacity:1;background-color:#1a202c;background-color:rgba(26,32,44,var(--bg-opacity))}.dark\:border-gray-700{--border-opacity:1;border-color:#4a5568;border-color:rgba(74,85,104,var(--border-opacity))}.dark\:text-white{--text-opacity:1;color:#fff;color:rgba(255,255,255,var(--text-opacity))}.dark\:text-gray-400{--text-opacity:1;color:#cbd5e0;color:rgba(203,213,224,var(--text-opacity))}.dark\:text-gray-500{--tw-text-opacity:1;color:#6b7280;color:rgba(107,114,128,var(--tw-text-opacity))}}
-        </style>
+    <!-- Page Title-->
+    <title>Hope Pathway - Under construction</title>
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
+    <!-- Meta Tags-->
+    <meta name="description" content="Axio - awesome coming soon template to kick-start your project">
+    <meta name="keywords" content="mix_design, coming soon, under construction, template, landing page, portfolio, one page, responsive, html5, css3, creative, clean, agency, personal page">
+    <meta name="author" content="mix_design">
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+    <!-- Viewport Meta-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
-                </div>
+    <!-- Template Favicon & Icons Start -->
+    <link rel="icon" href="img/favicon/color-mono/favicon.ico" sizes="any">
+    <link rel="icon" href="img/favicon/color-mono/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicon/color-mono/apple-touch-icon.png">
+    <link rel="manifest" href="img/favicon/color-mono/manifest.webmanifest">
+    <!-- Template Favicon & Icons End -->
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="p-6">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
-                            </div>
+    <!-- Facebook Metadata Start -->
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:title" content="Axio - Coming Soon Template">
+    <meta property="og:description" content="Axio - awesome coming soon template to kick-start your project">
+    <meta property="og:url" content="index.html">
+    <meta property="og:image" content="img/favicon/og-image.jpg">
+    <!-- Facebook Metadata End -->
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
-                                </div>
-                            </div>
-                        </div>
+    <!-- Template Styles Start -->
+    <link rel="stylesheet" type="text/css" href="css/loaders/loader-mono.css">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/colors/color-mono.css">
+    <!-- Template Styles End -->
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
-                            </div>
+    <!-- Custom Browser Color Start -->
+    <meta name="theme-color" content="#151515">
+    <meta name="msapplication-navbutton-color" content="#151515">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#151515">
+    <!-- Custom Browser Color End -->
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </div>
-                            </div>
-                        </div>
+  </head>
 
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                            </div>
+  <body>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <div class="flex items-center">
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 sm:text-left">
-                        <div class="flex items-center">
-                            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
-                                <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                            </svg>
-
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
-                            </a>
-
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="ml-4 -mt-px w-5 h-5 text-gray-400">
-                                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                            </svg>
-
-                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                Sponsor
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </div>
-                </div>
-            </div>
+    <!-- Loader Start -->
+    <div class="loader">
+      <div class="loader__content">
+        <div class="loader__logo slideInDown">
+          <!-- Your Logo Here -->
+          <img src="img/logo-loader.svg" alt="Hpw">
         </div>
-    </body>
+        <div class="loader__caption slideInUp">
+          <p class="loading-text">Loading</p>
+          <span class="loading-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Loader End -->
+
+    <!-- Custom HTML Start -->
+
+    <!-- Main Section Start-->
+    <section id="main" class="section-main">
+      <div class="container-fluid p-0 fullheight">
+        <div class="row g-0 fullheight">
+
+          <!-- Main Section Intro Start -->
+          <div id="intro" class="col-12 col-xl-9 section-main__intro">
+
+            <!-- Intro Media Start -->
+            <div class="intro__media">
+
+              <!-- Main Section Image Background Start -->
+              <div class="media__image media-mono-02"></div>
+              <!-- Main Section Image Background End -->
+
+              <!-- Background Effect Start -->
+              <div class="video-background">
+                <video id="main-video" preload="auto" autoplay="autoplay" loop="loop" muted="muted" poster="1920x1080-mono-video-poster.html">
+                  <source type="video/mp4" src="video/video-mono.mp4">
+                  <source type="video/webm" src="video/video-mono.webm">
+                  <source type="video/ogv" src="video/video-mono.ogv">
+                </video>
+              </div>
+              <!-- Background Effect End -->
+
+              <!-- Main Section Color Layer Start -->
+              <div class="color-layer color-layer-medium"></div>
+              <!-- Main Section Color Layer End -->
+
+            </div>
+            <!-- Intro Media End -->
+
+            <!-- Intro Header Start -->
+            <div class="intro__header">
+
+              <!-- Logo Start -->
+              <div class="logo">
+                <img style="height: 80px;" src="https://www.hopepathway.uk/wp-content/uploads/2021/04/cropped-Blood-Donation-Logo-4.png" alt="">
+              </div>
+              <!-- Logo End -->
+
+              <!-- Menu Trigger Start - Visible on Mobile -->
+              <a href="#0" id="menu-trigger" class="menu-trigger">
+                <i class="fa-solid fa-bars"></i>
+              </a>
+              <!-- Menu Trigger End - Visible on Mobile -->
+
+            </div>
+            <!-- Intro Header End -->
+
+            <!-- Navigation Start -->
+            <div id="menu" class="menu">
+
+              <!-- Navigation Controls Start - Visible on Mobile -->
+              <div class="menu__controls">
+                <a href="#0" id="menu-close" class="menu-close section-close">
+                  <i class="fa-solid fa-xmark"></i>
+                </a>
+              </div>
+              <!-- Navigation Controls End - Visible on Mobile -->
+
+              <!-- Navigation Menu Start -->
+              <div class="menu__container">
+                <nav class="navigation">
+                  <ul>
+                    <li class="transition-el transition-el-1"><a href="#" id="home-trigger" class="home-trigger">Home</a></li>
+                    <li class="transition-el transition-el-2"><a href="#" id="about-trigger" class="inner-trigger">About us</a></li>
+                    <li class="transition-el transition-el-3"><a href="#" id="works-trigger" class="inner-trigger">Our works</a></li>
+                    <li class="transition-el transition-el-4"><a href="#" id="contact-trigger" class="inner-trigger">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- Navigation Menu End -->
+
+            </div>
+            <!-- Navigation End -->
+
+            <!-- Intro Headline Start -->
+            <div class="intro__headline">
+              <p class="headline__subtitle">We are</p>
+
+              <!-- Animated Headline Start -->
+              <h1 class="headline__title clip">
+                <span class="words-wrapper">
+                  <b class="is-visible">Experience</b>
+                  <b>Adventure</b>
+                  <b>Coming soon</b>
+                </span>
+              </h1>
+              <!-- Animated Headline End -->
+
+              <p class="headline__description">We are preparing something amazing and exciting for you. Special surprise for our subscribers only.</p>
+              <div class="headline__btnholder">
+                <a href="#" class="button button-solid-light" id="notify-trigger">
+                  <span class="button-caption">Notify me</span>
+                </a>
+              </div>
+            </div>
+            <!-- Intro Headline End -->
+
+            <!-- Intro Countdown Start -->
+            <div class="intro__countdown">
+              <div class="countdown">
+                <div id="countdown"></div>
+                <span class="help-text">days<br>to launch</span>
+              </div>
+            </div>
+            <!-- Intro Countdown End -->
+
+            <!-- Intro Сopyright Start -->
+            <div class="intro__copyright">
+              <p class="copyright">Developed by
+
+
+                <a href="#" target="_blank">vicSystems Technologies Ltd.</a>
+              </p>
+            </div>
+            <!-- Intro Сopyright End -->
+
+          </div>
+          <!-- Main Section Intro End -->
+
+          <!-- Main Section Aside Start -->
+          <div class="col-12 col-xl-3 section-main__aside">
+
+            <!-- Aside Content Start -->
+            <div class="aside__content">
+              <p class="aside__title">Our website is under construction, but we are ready to go!</p>
+              <p class="aside__text">Want to know more about us, tell us about your project or just to say hello? Drop us a line and we will get back as soon as possible.</p>
+              <a href="#0" id="stayintouch-trigger" class="button button-outline-dark">
+                <span class="button-caption">Write a line</span>
+              </a>
+            </div>
+            <!-- Aside Content End -->
+
+            <!-- Aside Socials Start -->
+            <div class="aside__socials">
+              <ul class="socials">
+                <li>
+                  <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://dribbble.com/" target="_blank">
+                    <i class="fa-brands fa-dribbble"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.behance.net/" target="_blank">
+                    <i class="fa-brands fa-behance"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Aside Socials End -->
+
+            <!-- Stay-in-Touch Popup Start -->
+            <div id="stayintouch" class="stayintouch">
+
+              <!-- Stay-in-touch Controls Start -->
+              <div class="stayintouch__controls">
+                <a class="button-square button-outline-dark section-close" href="#0" id="stayintouch-close">
+                  <i class="fa-solid fa-xmark"></i>
+                </a>
+              </div>
+              <!-- Stay-in-touch Controls End -->
+
+              <!-- Stay-in-touch Content Start -->
+              <div class="stayintouch__content">
+
+                <!-- Stay-in-touch Content Block Title Start -->
+                <div class="content-block margin-bottom-s">
+                  <p class="popup__title transition-el transition-el-1">Stay in touch</p>
+                </div>
+                <!-- Stay-in-touch Content Block Title End -->
+
+                <!-- Stay-in-touch Content Block Form Start -->
+                <div class="content-block grid-block">
+                  <div class="form-container">
+
+                    <!-- Reply Messages Start -->
+                    <div class="reply-group">
+                      <i class="fa-solid fa-circle-check reply-group__icon"></i>
+                      <p class="reply-group__title">Done!</p>
+                      <span class="reply-group__text">Thanks for your message. We will get back as soon as possible.</span>
+                    </div>
+                    <!-- Reply Messages End -->
+
+                    <!-- Stay-in-touch Form Start -->
+                    <form class="form form-dark stayintouch-form" id="stayintouch-form">
+                      <!-- Hidden Required Fields -->
+                      <input type="hidden" name="project_name" value="Axio Coming Soon Template">
+                      <input type="hidden" name="admin_email" value="support@mixdesign.club">
+                      <input type="hidden" name="form_subject" value="Stay-in-touch Form Message">
+                      <!-- END Hidden Required Fields-->
+                      <div class="container-fluid px-4">
+                        <div class="row gx-5">
+                          <div class="col-12">
+                            <input class="transition-el transition-el-2" type="text" name="Name" placeholder="Your Name*" required>
+                          </div>
+                          <div class="col-12">
+                            <input class="transition-el transition-el-3" type="email" name="E-mail" placeholder="Email Adress*" required>
+                          </div>
+                          <div class="col-12">
+                            <textarea class="transition-el transition-el-4" name="Message" placeholder="Your Message*" required></textarea>
+                          </div>
+                          <div class="col-12">
+                            <span class="inputs-description opacity-el opacity-el-1">*Required fields</span>
+                            <button class="button button-solid-dark transition-el transition-el-5">
+                              <span class="button-caption">Send</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!-- Stay-in-touch Form End -->
+
+                  </div>
+                </div>
+                <!-- Stay-in-touch Content Block Form End -->
+
+              </div>
+              <!-- Stay-in-touch Content End -->
+
+            </div>
+            <!-- Stay-in-Touch Popup End -->
+
+          </div>
+          <!-- Main Section Aside End -->
+
+        </div>
+      </div>
+    </section>
+    <!-- Main Section End -->
+
+    <!-- About Us Section Start -->
+    <section id="about" class="section-inner about">
+      <div class="container-fluid p-0 fullheight">
+        <div class="row g-0 fullheight">
+          <div class="col-12 section-inner__content">
+
+            <!-- Section Controls Start -->
+            <div class="section-inner__controls">
+              <a class="button-square button-outline-dark section-close inner-close" href="#0" id="about-close">
+                <i class="fa-solid fa-arrow-left"></i>
+              </a>
+            </div>
+            <!-- Section Controls End -->
+
+            <!-- Section Container Start -->
+            <div class="section-inner__blocks no-padding-bottom">
+
+              <!-- Section Content Block Title Start -->
+              <div class="content-block">
+                <h2 class="inner__title">About us</h2>
+                <p class="inner__text">I wonder if I've been changed in the night? Let me think. Was I the same when I got up this morning? I almost think I can remember feeling a little different. But if I'm not the same, the next question is 'Who in the world am I?' Ah, that's the great puzzle!</p>
+              </div>
+              <!-- Section Content Block Title End -->
+
+              <!-- Section Content Block Features Start -->
+              <div class="content-block features">
+                <div class="container-fluid p-0">
+                  <!-- features single item -->
+                  <div class="row g-0">
+                    <div class="col-12 col-md-6">
+                      <div class="feature__image feature-image-1"></div>
+                    </div>
+                    <div class="col-12 col-md-6 bg-medium">
+                      <div class="feature__descr">
+                        <img src="img/features/axio-icon-1.svg" alt="Axio Template Feature Icon">
+                        <h3>Eye catching design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere massa.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- features single item -->
+                  <div class="row g-0 flex-md-row-reverse">
+                    <div class="col-12 col-md-6">
+                      <div class="feature__image feature-image-2"></div>
+                    </div>
+                    <div class="col-12 col-md-6 bg-dark">
+                      <div class="feature__descr">
+                        <img src="img/features/axio-icon-2.svg" alt="Axio Template Feature Icon">
+                        <h3 class="light">Trendy colors and fonts</h3>
+                        <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere massa.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- features single item -->
+                  <div class="row g-0">
+                    <div class="col-12 col-md-6">
+                      <div class="feature__image feature-image-3"></div>
+                    </div>
+                    <div class="col-12 col-md-6 bg-light">
+                      <div class="feature__descr">
+                        <img src="img/features/axio-icon-3.svg" alt="Axio Template Feature Icon">
+                        <h3>Smooth section  transitions</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere massa.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- features single item -->
+                  <div class="row g-0 flex-md-row-reverse">
+                    <div class="col-12 col-md-6">
+                      <div class="feature__image feature-image-4"></div>
+                    </div>
+                    <div class="col-12 col-md-6 bg-medium">
+                      <div class="feature__descr">
+                        <img src="img/features/axio-icon-4.svg" alt="Axio Template Feature Icon">
+                        <h3>Custom Google maps</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere massa.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- features single item -->
+                  <div class="row g-0">
+                    <div class="col-12 col-md-6">
+                      <div class="feature__image feature-image-5"></div>
+                    </div>
+                    <div class="col-12 col-md-6 bg-dark">
+                      <div class="feature__descr">
+                        <img src="img/features/axio-icon-5.svg" alt="Axio Template Feature Icon">
+                        <h3 class="light">Ready to use contact forms</h3>
+                        <p class="light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere massa.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- features single item -->
+                  <div class="row g-0 flex-md-row-reverse">
+                    <div class="col-12 col-md-6">
+                      <div class="feature__image feature-image-6"></div>
+                    </div>
+                    <div class="col-12 col-md-6 bg-light">
+                      <div class="feature__descr">
+                        <img src="img/features/axio-icon-6.svg" alt="Axio Template Feature Icon">
+                        <h3>Totally responsive layout</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere massa.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Section Content Block Features End -->
+
+              <!-- Section Content Block Blockquote Start -->
+              <div class="content-block blockquote">
+                <div class="container-fluid p-0">
+                  <div class="row g-0">
+                    <div class="col-12">
+                      <div class="blockquote__container">
+                        <div class="color-layer color-layer-medium"></div>
+                        <blockquote cite="">
+                          <i class="fa-solid fa-quote-right light"></i>
+                          <p class="light">My dear, here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that.</p>
+                          <cite class="light">
+                            <span>Lewis Carroll</span>
+                            <span>Alice in Wonderland</span>
+                          </cite>
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Section Content Block Blockquote End -->
+
+            </div>
+            <!-- Section Container End -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section End -->
+
+    <!-- Our Works Section Start -->
+    <section id="works" class="section-inner works">
+      <div class="container-fluid p-0 fullheight">
+        <div class="row g-0 fullheight">
+          <div class="col-12 section-inner__content">
+
+            <!-- Section Controls Start -->
+            <div class="section-inner__controls">
+              <a class="button-square button-outline-dark section-close inner-close" href="#0" id="works-close">
+                <i class="fa-solid fa-arrow-left"></i>
+              </a>
+            </div>
+            <!-- Section Controls End -->
+
+            <!-- Section Container Start -->
+            <div class="section-inner__blocks">
+
+              <!-- Section Content Block Title Start -->
+              <div class="content-block">
+                <h2 class="inner__title">Our Works</h2>
+                <p class="inner__text">Be what you would seem to be – or, if you’d like it put more simply – never imagine yourself not to be otherwise than what it might appear to others that what you were or might have been was not otherwise than what you had been would have appeared to them to be otherwise.</p>
+              </div>
+              <!-- Section Content Block Title End -->
+
+              <!-- Section Content Block Gallery Start -->
+              <div class="content-block grid-block">
+                <div class="container-fluid px-4">
+                  <div class="row gx-5 my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                    <!-- gallery single item -->
+                    <figure class="col-12 col-sm-6 my-gallery__item"  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/works/1200x900-work-1.jpg" data-image="img/works/1200x900-work-1.jpg" class="works-link" itemprop="contentUrl" data-size="1200x900">
+                        <img src="img/works/1200x900-work-1.jpg" class="works-image" itemprop="thumbnail" alt="Image description" />
+                      </a>
+                      <figcaption class="my-gallery__descr" itemprop="caption description">
+                        <h4>Agency website
+                          <small>web design</small>
+                        </h4>
+                        <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.</p>
+                      </figcaption>
+                    </figure>
+                    <!-- gallery single item -->
+                    <figure class="col-12 col-sm-6 my-gallery__item"  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/works/1200x900-work-2.jpg" data-image="img/works/1200x900-work-2.jpg" class="works-link" itemprop="contentUrl" data-size="1200x900">
+                        <img src="img/works/1200x900-work-2.jpg" class="works-image" itemprop="thumbnail" alt="Image description" />
+                      </a>
+                      <figcaption class="my-gallery__descr" itemprop="caption description">
+                        <h4>Fashion brand
+                          <small>photography</small>
+                        </h4>
+                        <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.</p>
+                      </figcaption>
+                    </figure>
+                    <!-- gallery single item -->
+                    <figure class="col-12 col-sm-6 my-gallery__item"  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/works/1200x900-work-3.jpg" data-image="img/works/1200x900-work-3.jpg" class="works-link" itemprop="contentUrl" data-size="1200x900">
+                        <img src="img/works/1200x900-work-3.jpg" class="works-image" itemprop="thumbnail" alt="Image description" />
+                      </a>
+                      <figcaption class="my-gallery__descr" itemprop="caption description">
+                        <h4>Hair cosmetics
+                          <small>packaging</small>
+                        </h4>
+                        <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.</p>
+                      </figcaption>
+                    </figure>
+                    <!-- gallery single item -->
+                    <figure class="col-12 col-sm-6 my-gallery__item"  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/works/1200x900-work-4.jpg" data-image="img/works/1200x900-work-4.jpg" class="works-link" itemprop="contentUrl" data-size="1200x900">
+                        <img src="img/works/1200x900-work-4.jpg" class="works-image" itemprop="thumbnail" alt="Image description" />
+                      </a>
+                      <figcaption class="my-gallery__descr" itemprop="caption description">
+                        <h4>Bright stuff
+                          <small>branding</small>
+                        </h4>
+                        <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.</p>
+                      </figcaption>
+                    </figure>
+                    <!-- gallery single item -->
+                    <figure class="col-12 col-sm-6 my-gallery__item"  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/works/1200x900-work-5.jpg" data-image="img/works/1200x900-work-5.jpg" class="works-link" itemprop="contentUrl" data-size="1200x900">
+                        <img src="img/works/1200x900-work-5.jpg" class="works-image" itemprop="thumbnail" alt="Image description" />
+                      </a>
+                      <figcaption class="my-gallery__descr" itemprop="caption description">
+                        <h4>Showroom design
+                          <small>interior</small>
+                        </h4>
+                        <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.</p>
+                      </figcaption>
+                    </figure>
+                    <!-- gallery single item -->
+                    <figure class="col-12 col-sm-6 my-gallery__item"  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                      <a href="img/works/1200x900-work-6.jpg" data-image="img/works/1200x900-work-6.jpg" class="works-link" itemprop="contentUrl" data-size="1200x900">
+                        <img src="img/works/1200x900-work-6.jpg" class="works-image" itemprop="thumbnail" alt="Image description" />
+                      </a>
+                      <figcaption class="my-gallery__descr" itemprop="caption description">
+                        <h4>Magazine cover
+                          <small>print</small>
+                        </h4>
+                        <p>Mauris porttitor lobortis ligula, quis molestie lorem scelerisque eu. Morbi aliquam enim odio, a mollis ipsum tristique eu.</p>
+                      </figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <!-- Section Content Block Gallery End -->
+
+            </div>
+            <!-- Section Container End -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Works Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="section-inner contact">
+      <div class="container-fluid p-0 fullheight">
+        <div class="row g-0 fullheight">
+          <div class="col-12 section-inner__content">
+
+            <!-- Section Controls Start -->
+            <div class="section-inner__controls">
+              <a class="button-square button-outline-dark section-close inner-close" href="#0" id="contact-close">
+                <i class="fa-solid fa-arrow-left"></i>
+              </a>
+            </div>
+            <!-- Section Controls End -->
+
+            <!-- Section Container Start -->
+            <div class="section-inner__blocks no-padding-bottom">
+
+              <!-- Section Content Block Title Start -->
+              <div class="content-block margin-bottom-s">
+                <h2 class="inner__title">Get in touch</h2>
+                <p class="inner__text">You can call us or leave a request here.
+                  We are always glad to see you in our office from
+                  <span>9:00</span>
+                  to
+                  <span>18:00</span>.
+                  Contact us via phone:
+                  <span><a href="tel:+12127089400">+1 212-708-9400</a></span>
+                  or email:
+                  <span><a href="mailto:example@example.com?subject=Message%20from%20your%20site">example@example.com</a></span>
+                </p>
+              </div>
+              <!-- Section Content Block Title End -->
+
+              <!-- Section Content Block Contact Form Start -->
+              <div class="content-block grid-block">
+                <div class="form-container">
+
+                  <!-- Contact Form Reply Group Start -->
+                  <div class="reply-group">
+                    <i class="fa-solid fa-circle-check reply-group__icon"></i>
+                    <p class="reply-group__title">Done!</p>
+                    <span class="reply-group__text">Thanks for your message. We will get back as soon as possible.</span>
+                  </div>
+                  <!-- Contact Form Reply Group End -->
+
+                  <!-- Contact Form Start -->
+                  <form class="form form-dark contact-form" id="contact-form">
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="Axio Coming Soon Template">
+                    <input type="hidden" name="admin_email" value="support@mixdesign.club">
+                    <input type="hidden" name="form_subject" value="Contact Form Message">
+                    <!-- END Hidden Required Fields-->
+                    <div class="container-fluid px-4">
+                      <div class="row gx-5">
+                        <div class="col-12 col-md-6">
+                          <input type="text" name="Name" placeholder="Your Name*" required>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <input type="email" name="E-mail" placeholder="Email Adress*" required>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <input type="text" name="Company" placeholder="Company name">
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <input type="tel" name="Phone" placeholder="Phone Number*" required>
+                        </div>
+                        <div class="col-12">
+                          <textarea name="Message" placeholder="A Few Words*" required></textarea>
+                        </div>
+                        <div class="col-12">
+                          <span class="inputs-description">*Required fields</span>
+                          <button class="button button-solid-dark">
+                            <span class="button-caption">Send</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <!-- Contact Form End  -->
+
+                </div>
+              </div>
+              <!-- Section Content Block Contact Form End -->
+
+              <!-- Section Content Block Google Map Start -->
+              <div class="content-block map">
+                <div id="google-map">
+                  <div id="google-container"></div>
+                  <div id="zoom-in">
+                    <i class="fa-solid fa-plus button-icon"></i>
+                  </div>
+                  <div id="zoom-out">
+                    <i class="fa-solid fa-minus button-icon"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- Section Content Block Google Map End -->
+
+            </div>
+            <!-- Section Container End -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Notify Section Start -->
+    <div id="notify" class="notify">
+      <div class="container-fluid p-0 fullheight">
+        <div class="row g-0 fullheight">
+          <div class="col-12">
+
+            <!-- Notify Controls Start -->
+            <div class="notify__controls">
+              <a class="button-square button-outline-light section-close" href="#0" id="notify-close">
+                <i class="fa-solid fa-xmark"></i>
+              </a>
+            </div>
+            <!-- Notify Controls End -->
+
+            <!-- Notify Content Start -->
+            <div class="notify__content">
+
+              <!-- Notify Content Block Title Start -->
+              <div class="content-block margin-bottom-s">
+                <p class="popup__title light transition-el transition-el-1">Get to know about our launch</p>
+                <p class="popup__subtitle light transition-el transition-el-2">Subscribe to our newsletter and we will send you a notification about the launch of our brand new site.</p>
+              </div>
+              <!-- Notify Content Block Title End -->
+
+              <!-- Notify Content Block Form Start -->
+              <div class="content-block grid-block">
+                <div class="form-container">
+
+                  <!-- Reply Messages Start-->
+                  <div class="reply-group subscription-ok">
+                    <i class="fa-solid fa-circle-check reply-group__icon light"></i>
+                    <p class="reply-group__title light">Done!</p>
+                    <span class="reply-group__text light">Thanks for subscribing. We will send you a notification about the launch of our brand new website.</span>
+                    </div>
+                  <div class="reply-group subscription-error">
+                    <i class="fa-solid fa-face-frown-open reply-group__icon light"></i>
+                    <p class="reply-group__title light">Ooops!</p>
+                    <span class="reply-group__text light">Something went wrong. Please try again later.</span>
+                  </div>
+                  <!-- Reply Messages End-->
+
+                  <!-- Notify Form Start -->
+                  <form class="form form-light notify-form" id="notify-form">
+                    <div class="container-fluid px-4">
+                      <div class="row gx-5">
+                        <div class="col-12">
+                          <input class="transition-el transition-el-3" type="email" placeholder="Email Adress*" required>
+                          <button class="button button-solid-light transition-el transition-el-4" type="submit">
+                            <span class="button-caption">Send</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                  <!-- Notify Form End -->
+
+                </div>
+              </div>
+              <!-- Notify Content Block Form End -->
+
+            </div>
+            <!-- Notify Content End -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Notify Section End -->
+
+    <!-- Custom HTML End -->
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+      <!-- Background of PhotoSwipe.
+      It's a separate element, as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
+
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+          <div class="pswp__top-bar">
+
+            <!--  Controls are self-explanatory. Order can be changed. -->
+
+            <div class="pswp__counter"></div>
+
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+            <button class="pswp__button pswp__button--share" title="Share"></button>
+
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+            <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader--active when preloader is running -->
+            <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+            </div>
+          </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Load Scripts Start -->
+    <script src="js/libs.min.js"></script>
+    <script src="js/gallery-init.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/maps/map-mono.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNMDtmEsvSevM4ztfsbhLfLNZhKHCvWXk"></script>
+    <!-- Load Scripts End -->
+
+  </body>
+
+
+<!-- Mirrored from mixdesign.club/themeforest/axio/index-mono-html5-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 20 Oct 2023 11:07:50 GMT -->
 </html>
