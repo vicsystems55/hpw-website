@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="site/assets/css/magnific-popup.css">
     <link rel="stylesheet" href="site/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="site/assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="site/assets/css/vicSystems Technologies Ltd.-icons.css">
+    <link rel="stylesheet" href="site/assets/css/oberlin-icons.css">
 
     <!-- template styles -->
     <link rel="stylesheet" href="site/assets/css/style.css">
@@ -189,15 +189,15 @@
                             </div><!-- /.about-four__text -->
                             <div class="about-four__icon-wrap">
                                 <div class="about-four__icon-single">
-                                    <i class="vicSystems Technologies Ltd.-icon-map"></i>
+                                    <i class="oberlin-icon-map"></i>
                                     <h3>Our Mission</h3>
                                 </div><!-- /.about-four__icon-single -->
                                 <div class="about-four__icon-single">
-                                    <i class="vicSystems Technologies Ltd.-icon-goal"></i>
+                                    <i class="oberlin-icon-goal"></i>
                                     <h3>Our Vision</h3>
                                 </div><!-- /.about-four__icon-single -->
                                 <div class="about-four__icon-single">
-                                    <i class="vicSystems Technologies Ltd.-icon-discussion"></i>
+                                    <i class="oberlin-icon-discussion"></i>
                                     <h3>Career</h3>
                                 </div><!-- /.about-four__icon-single -->
                             </div><!-- /.about-four__icon-wrap -->
@@ -515,7 +515,7 @@
                         <div class="testimonials-two__content wow fadeInUp" data-wow-duration="1500ms">
                             <div class="block-title">
                                 <p class="has-line">05. Testimonials</p><!-- /.has-line -->
-                                <h3>What Our Clients Say <br> About vicSystems Technologies Ltd.?</h3>
+                                <h3>What Our Clients Say <br> About Oberlin?</h3>
                             </div><!-- /.block-title -->
                             <div class="testimonials-two__carousel">
                                 <div class="swiper-wrapper">
@@ -736,9 +736,9 @@
                             <div class="contact-two__content">
                                 <div class="block-title">
                                     <p class="has-line">05. Appointment</p><!-- /.has-line -->
-                                    <h3>Want to Hear More About <br> vicSystems Technologies Ltd. Hospice?</h3>
+                                    <h3>Want to Hear More About <br> Oberlin Hospice?</h3>
                                 </div><!-- /.block-title -->
-                                <form action="https://html.tonatheme.com/2021/vicSystems Technologies Ltd./assets/inc/sendemail.php"
+                                <form action="https://html.tonatheme.com/2021/oberlin/assets/inc/sendemail.php"
                                     class="contact-one__form contact-form-validated">
                                     <div class="row">
                                         <div class="col-md-6">
@@ -846,7 +846,7 @@
                                 <h3 class="footer-widget__title">Contacts</h3><!-- /.footer-widget__title -->
                                 <p>Flat 20, Reynolds Neck, North <br> Helenaville, FV77 8WS</p>
                                 <p><a href="tel:+2(305)-587-3407">+2(305) 587-3407</a></p>
-                                <p><a href="mailto:info@vicSystems Technologies Ltd..com">info@vicSystems Technologies Ltd..com</a></p>
+                                <p><a href="mailto:info@oberlin.com">info@oberlin.com</a></p>
                             </div><!-- /.footer-widget footer-widget__contact -->
                         </div><!-- /.col-xl-3 col-lg-6 col-md-6 -->
                     </div><!-- /.row -->
@@ -854,7 +854,7 @@
             </div><!-- /.site-footer__main -->
             <div class="site-footer__bottom">
                 <div class="container">
-                    <p>vicSystems Technologies Ltd. <i class="far fa-copyrig2023ht"></i> 2021 All Right Reserved</p>
+                    <p>vicSystems Technologies Ltd. <i class="far fa-copyright"></i> 2023 All Right Reserved</p>
                     <ul class="list-unstyled site-footer__menu">
                         <li><a href="#">Terms of Service</a></li>
                         <li><a href="#">Privacy Policy</a></li>
@@ -917,5 +917,5 @@
 </body>
 
 
-<!-- Mirrored from html.tonatheme.com/2021/vicSystems Technologies Ltd./index-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Oct 2023 09:41:44 GMT -->
+<!-- Mirrored from html.tonatheme.com/2021/oberlin/index-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Oct 2023 09:41:44 GMT -->
 </html>
