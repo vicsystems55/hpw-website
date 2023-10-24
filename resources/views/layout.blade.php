@@ -86,18 +86,15 @@
                         <ul class="main-nav__navigation-box">
 
                             <li><a href="/">Home</a></li>
-                            <li><a href="/">About us</a></li>
-                            <li><a href="/">Our Services</a></li>
-                            <li><a href="/">Our Processes</a></li>
-                            <li><a href="/">Accommodation</a></li>
-                            <li><a href="/">Join Now</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Our Proceses</a></li>
                             <li><a href="/">Contact</a></li>
 
                         </ul><!-- /.main-nav__navigation-box -->
                     </div><!-- /.main-nav__main-navigation -->
                     <div class="main-nav__right">
                         <a href="contact.html" class="thm-btn main-nav-one__btn"><i class="far fa-clock"></i>
-                            Appointment</a><!-- /.thm-btn main-nav-one__btn -->
+                            Join Now</a><!-- /.thm-btn main-nav-one__btn -->
                     </div><!-- /.main-nav__right -->
                 </div><!-- /.inner-container -->
             </div><!-- /.container -->
