@@ -80,7 +80,7 @@
             <div class="container">
                 <div class="inner-container">
                     <div class="logo-box">
-                        <a href="index.html">
+                        <a href="index">
                             <img style="height: 80px; max-width:150px;" src="https://www.hopepathway.uk/wp-content/uploads/2021/04/cropped-Blood-Donation-Logo-4.png" alt="" width="219">
                         </a>
                         <a href="#" class="side-menu__toggler"><i class="fa fa-bars"></i></a>
@@ -90,7 +90,27 @@
 
                             <li><a href="/index">Home</a></li>
                             <li><a href="/about-us">About</a></li>
-                            <li><a href="/services">Our Services</a></li>
+                            <li class="dropdown">
+                                <a href="/services">Our Services</a>
+                                <ul>
+
+                                    <li><a href="/index">Planned Placement</a></li>
+                                    <li><a href="/index">Emergency Placement</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/index">Our Process</a>
+                                <ul>
+                                    <li><a href="/index">Admission Process</a></li>
+                                    <li><a href="/index">Settling In</a></li>
+                                    <li><a href="/index">Accomodation</a></li>
+
+
+                                </ul>
+                            </li>
+
+
+
                             <li><a href="/index">Contact</a></li>
 
                         </ul><!-- /.main-nav__navigation-box -->
@@ -110,7 +130,7 @@
                 <div class="container">
                     <img src="site/assets/images/shapes/upper-footer-shape-1-1.png" class="site-footer__upper-moc" alt="">
                     <div class="site-footer__logo">
-                        <a href="index.html"><img src="https://www.hopepathway.uk/wp-content/uploads/2021/04/cropped-Blood-Donation-Logo-4.png" width="219" alt=""></a>
+                        <a href="index"><img src="https://www.hopepathway.uk/wp-content/uploads/2021/04/cropped-Blood-Donation-Logo-4.png" width="219" alt=""></a>
                     </div><!-- /.site-footer__logo -->
                     <div class="site-footer__social">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -133,12 +153,12 @@
                             <div class="footer-widget footer-widget__links">
                                 <h3 class="footer-widget__title">Services</h3><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links-list">
-                                    <li><a href="about-1.html">About Us</a></li>
-                                    <li><a href="about-1.html">Admission Process</a></li>
+                                    <li><a href="about-1">About Us</a></li>
+                                    <li><a href="about-1">Admission Process</a></li>
 
 
 
-                                    <li><a href="career.html">Jobs</a></li>
+                                    <li><a href="career">Jobs</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links-list -->
                             </div><!-- /.footer-widget footer-widget__links -->
                         </div><!-- /.col-xl-2 col-lg-6 col-md-6 -->
@@ -185,7 +205,7 @@
         </div><!-- /.side-menu__block-overlay -->
         <div class="side-menu__block-inner ">
 
-            <a href="index.html" class="side-menu__logo"><img src="https://www.hopepathway.uk/wp-content/uploads/2021/04/cropped-Blood-Donation-Logo-4.png" alt=""
+            <a href="index" class="side-menu__logo"><img src="https://www.hopepathway.uk/wp-content/uploads/2021/04/cropped-Blood-Donation-Logo-4.png" alt=""
                     width="190"></a>
             <nav class="mobile-nav__container">
                 <!-- content is loading via js -->
@@ -223,5 +243,5 @@
 </body>
 
 
-<!-- Mirrored from html.tonatheme.com/2021/oberlin/index-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Oct 2023 09:41:44 GMT -->
+<!-- Mirrored from html.tonatheme.com/2021/oberlin/index-5 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 24 Oct 2023 09:41:44 GMT -->
 </html>
