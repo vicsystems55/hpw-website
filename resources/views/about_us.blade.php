@@ -357,7 +357,7 @@ We help transform lives through our services which include residential and train
 </section><!-- /.service-one -->
 
 
-<section class="faq-two">
+<section class="faq-two d-none">
     <div class="faq-two__image wow fadeInRight" data-wow-duration="1500ms">
         <img src="site/assets/images/resources/faq-1-1.png" alt="">
     </div><!-- /.faq-two__image -->
